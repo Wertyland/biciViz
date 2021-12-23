@@ -33,7 +33,7 @@ app.use(function(req, res, next) {
 });
 
 // error handlers
-
+const tumama = require('./routes/tumama');
 // development error handler
 // will print stacktrace
 if (app.get('env') === 'development') {
